@@ -1,0 +1,20 @@
+[
+    {
+        "kodlar": {
+            "Nitro Üret": {
+                "author": [],
+                "isim": "Nitro Üret",
+                "id": "sclncD1FV5",
+                "desc": "Nitro Kodu Üretmenize Sağlar",
+                "modules": [
+                    "discord.js"
+                ],
+                "icon": "https://cdn.discordapp.com/avatars/539158525092560916/1371c355c8c035b37da3c203c1a05535.png",
+                "main_code": "Yok",
+                "komutlar_code": "exports.run = (client, message, args) => {\r\n  function rasteleSembol(uzunluk, semboller) {\r\n\r\nvar maske = '';\r\n\r\nif (semboller.indexOf('a') > -1) maske += 'abcdefghijklmnopqrstuvwxyz';\r\n\r\nif (semboller.indexOf('A') > -1) maske += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\r\n\r\nif (semboller.indexOf('0') > -1) maske += '0123456789';\r\n\r\nvar sonuc = '';\r\n\r\n \r\n\r\nfor (var i = uzunluk; i > 0; --i) \r\n\r\n{\r\n\r\nsonuc += maske[Math.floor(Math.random() * maske.length)];\r\n\r\n}\r\n\r\nreturn sonuc;\r\n\r\n}\r\n\r\nfunction spamla(){\r\n    message.channel.send(\"https:/\"+\"/discord.gift/\" + rasteleSembol(16,'0aA'));\r\n}\r\n        var veri = message.content.toString();\r\n        var veriSn = veri.substring(10)\r\n        var saniye = parseInt(veriSn);\r\n        var saniye1 = saniye * 1000000;\r\n        setInterval(spamla, saniye1);\r\n        \r\n};\r\n\r\nexports.conf = {\r\n    enabled: true,\r\n    guildOnly: false,\r\n    aliases: ['nitro','nitroal'],\r\n    permLevel: 0\r\n};\r\n\r\nexports.help = {\r\n  name: 'nitroüret',\r\n  description: 'Optimium Code',\r\n  usage: 'OptimiumCode'\r\n};",
+                "kod_rank": "elmas",
+                "date": "5/9/2020"
+            }
+        }
+    }
+]

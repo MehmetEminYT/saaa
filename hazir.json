@@ -1,0 +1,34 @@
+[
+    {
+        "kodlar": {
+            "Alert Efekti": {
+                "author": [],
+                "isim": "Alert Efekti",
+                "id": "pD61aQDbR4",
+                "desc": "Siteye Girince Anında Uyarı Tarzında Mesajınızı Belirtir Örnek : Minecraft Sunucumuza Katıldınızmı?",
+                "modules": [
+                    "Yok"
+                ],
+                "icon": "https://cdn.discordapp.com/avatars/539158525092560916/1371c355c8c035b37da3c203c1a05535.png",
+                "main_code": " <script src=\"https://unpkg.com/sweetalert/dist/sweetalert.min.js\"></script>\r\n<link rel=\"stylesheet\" href=\"sweetalert2.min.css\">\r\n<script src=\"https://cdn.jsdelivr.net/npm/promise-polyfill\"></script>\r\n<script>\r\nswal(`Merhaba`, \"Merhaba 2\", \"warning\", {\r\n  button: \"Kapat\",\r\n});\r\n</script>",
+                "komutlar_code": "yok",
+                "kod_rank": "hazir",
+                "date": "5/10/2020"
+            },
+            "Kar Yağdırma Efekti": {
+                "author": [],
+                "isim": "Kar Yağdırma Efekti",
+                "id": "6HKDLIeXob",
+                "desc": "Sitenizde Kar Efekti Olur",
+                "modules": [
+                    "Yok"
+                ],
+                "icon": "https://cdn.discordapp.com/avatars/539158525092560916/1371c355c8c035b37da3c203c1a05535.png",
+                "main_code": "<script type=\"text/javascript\" src=\"https://webkodu.ozgurlukicin.com/kod-kaynak/wk-kar-efekt.js\"></script>",
+                "komutlar_code": "YOK",
+                "kod_rank": "hazir",
+                "date": "5/10/2020"
+            }
+        }
+    }
+]
